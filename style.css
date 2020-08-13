@@ -15,7 +15,11 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
+  transition: transform 0.3s ease;
+}
+
+body.show-nav {
+  transform: translateX(200px);
 }
 
 nav {
